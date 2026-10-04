@@ -1,9 +1,7 @@
 /* FIT5003 A2 — Part B.2 external payload (reflected-XSS account takeover).
  *
  * will execute a remote <script src>. A raw github.com URL is served as
- * text/plain + nosniff and will NOT run; jsDelivr serves it as JavaScript:
- *
- *   https://cdn.jsdelivr.net/gh/jolin1215/my-payload-repo@main/payload.js
+ * text/plain + nosniff and will NOT run.
  *
  * Crafted victim URL (reflected sink is /search?q=, see search.html):
  *
